@@ -202,7 +202,7 @@ class ComplexNumber:
         self.z = 'a + b * i'
 
     def __add__(self, other):
-        print(f'Сумма z1 и z2 равна')
+        print('Сумма z1 и z2 равна')
         return f'z = {self.a + other.a} + {self.b + other.b} * i'
 
     def __mul__(self, other):
